@@ -1,18 +1,28 @@
 <html>
 <title>Document</title>
-<body><font face="courier new" size=7><pre>
+<body><font face="courier new" size=5><pre>
 <script language="JaveScript" type="text/javascript">
 
 /* นายสุรวิชญ์ สุริยะวงค์ รหัสนักศึกษา 5908111004 มหาลัยเนชั่น ปี 2560*/
 
-for(i=1;i<=5;i++)
+for(i=5;i>=1;i--)
 {
-	document.write(i + "" + (10-i));
-	document.write(i + "" + (10-i));
-	document.write(i + "" + (10-i));
-	document.write(i + "" + (10-i));
+	for(j=1;j<=(5-i);j++)
+	{
+	document.write(" ");
+	}
+	for(j=1;j<=i;j++)
+	{
+	document.write(6-i);
+	}
+	for(j=2;j<=i;j++)
+	{
+	document.write(6-i);
+	}
 	document.write("\n");
 }
+
+
 </script>
 </body>
 </html>
